@@ -1,0 +1,35 @@
+<Solution>
+  <Folder Name="/docs/" />
+  <Folder Name="/docs/qrManager/" />
+  <Folder Name="/docs/qrManager/development/" />
+  <Folder Name="/docs/shared/" />
+  <Folder Name="/docs/subscriptionManagement/" />
+  <Folder Name="/docs/subscriptionManagement/development/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/QRManager/">
+    <Project Path="src/QRManager/QRManager.Application/QRManager.Application.csproj" />
+    <Project Path="src/QRManager/QRManager.Interface/QRManager.Interface.csproj" />
+    <Project Path="src/QRManager/QRManager.Models/QRManager.Models.csproj" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/Nexora.Api/Nexora.Api.csproj" />
+    <Project Path="src/Shared/Nexora.Data/Nexora.Data.csproj" />
+  </Folder>
+  <Folder Name="/src/SubscriptionManagement/">
+    <Project Path="src/SubscriptionManagement/SubscriptionManagement.Application/SubscriptionManagement.Application.csproj" />
+    <Project Path="src/SubscriptionManagement/SubscriptionManagement.Interface/SubscriptionManagement.Interface.csproj" />
+    <Project Path="src/SubscriptionManagement/SubscriptionManagement.Models/SubscriptionManagement.Models.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/QRManager/">
+    <Project Path="tests/QRManager/QRManager.IntegrationTests/QRManager.IntegrationTests.csproj" />
+    <Project Path="tests/QRManager/QRManager.UnitTests/QRManager.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/Shared/">
+    <Project Path="tests/Shared/Nexora.IntegrationTests/Nexora.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/SubscriptionManagement/">
+    <Project Path="tests/SubscriptionManagement/SubscriptionManagement.IntegrationTests/SubscriptionManagement.IntegrationTests.csproj" />
+    <Project Path="tests/SubscriptionManagement/SubscriptionManagement.UnitTests/SubscriptionManagement.UnitTests.csproj" />
+  </Folder>
+</Solution>
